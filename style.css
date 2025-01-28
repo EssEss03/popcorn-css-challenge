@@ -1,5 +1,96 @@
-/*COLORS:
-Header background - #FFDBAA
-button - #805215
-Header Text - #553100
-Main background - #D4A76A*/
+/* COLOR SCHEME */
+:root {
+    --header-bg: #FFDBAA;
+    --button-bg: #805215;
+    --header-text: #553100;
+    --main-bg: #D4A76A;
+    --card-bg: white;
+    --card-border: #805215;
+}
+
+/* GLOBAL STYLES */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--main-bg);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* HEADER */
+header {
+    background-color: var(--header-bg);
+    color: var(--header-text);
+    padding: 15px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: var(--button-bg);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* MAIN SECTION */
+.offers {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border: 2px solid var(--card-border);
+    padding: 20px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.card h2 {
+    color: var(--header-text);
+}
+
+.card button {
+    background-color: var(--button-bg);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* ABOUT US SECTION */
+.about {
+    background-color: var(--card-bg);
+    border: 2px solid var(--card-border);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.about button {
+    background-color: var(--button-bg);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
