@@ -32,7 +32,7 @@ header {
 header h1 {
     font-size: 28px;
     font-weight: bold;
-    margin: 0;
+    margin: 30px;
 }
 
 /* NAVIGATION */
@@ -54,7 +54,7 @@ nav ul li a {
     background-color: var(--button-bg);
     color: white;
     padding: 12px 20px;
-    border-radius: 5px;
+    border-radius: 0px;
     font-weight: bold;
     display: inline-block;
     transition: background 0.3s;
@@ -77,15 +77,17 @@ nav ul li a:hover {
     background-color: var(--card-bg);
     padding: 20px;
     width: 270px;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Centered shadow effect */
+    border-radius: 0px;
+    text-align: left;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* Centered shadow effect */
 }
 
 .card h2 {
-    color: var(--header-text);
+    color: black;
     font-size: 20px;
     margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .card p {
@@ -101,8 +103,11 @@ nav ul li a:hover {
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 0px;
     transition: background 0.3s;
+    display: inline-block;
+    margin-top: 10px;
+    width: 270px;
 }
 
 .card button:hover {
@@ -112,17 +117,19 @@ nav ul li a:hover {
 /* ABOUT US SECTION */
 .about {
     background-color: var(--card-bg);
-    margin: 40px auto;
-    padding: 25px;
+    margin: 30px auto;
+    padding: 15px;
     width: 85%;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+    text-align: left;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
 
 .about h2 {
+    text-align: center;
+    color: black;
     font-size: 22px;
-    color: var(--header-text);
+    font-weight: bold;
 }
 
 .about p {
@@ -134,12 +141,13 @@ nav ul li a:hover {
     background-color: var(--button-bg);
     color: white;
     border: none;
-    padding: 12px 18px;
+    padding: 12px 100px;
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 0px;
     transition: background 0.3s;
+    width: 100%;
 }
 
 .about button:hover {
